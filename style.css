@@ -1,0 +1,223 @@
+body {
+	font-family: 'Kiwi Maru', serif;
+    background: #f1f1f1;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clr {
+	clear:both;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    opacity: 0.4;
+}
+.header {
+    padding: 20px 0;
+    background: #fff;
+    width: 100%;
+}
+.header .logo a {
+    font-size: 22px;
+    color: #333;
+    font-weight: 800;
+    text-decoration: none;
+}
+.header .menu li {
+    list-style: none;
+    display: inline-block;
+}
+.header .menu li button {
+    border-radius: 5px;
+    background: #f57e42;
+    padding: 5px 10px;
+    border: 1px solid #f57e42;
+    transition: all 0.2s ease;
+}
+.header .menu li button a {
+    color: #fff;
+}
+.header .menu li button:hover {
+    background: #fff;
+}
+.header .menu li button:hover a {
+    color: #f57e42!important;
+}
+.header .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 5px 10px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+.header .menu li a:hover {
+    color: #f57e42;
+}
+
+.list {
+    margin-top: 50px;
+    padding: 20px 30px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #b2b1ad;
+}
+.list .title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.list .title h1 {
+    padding: 5px 0 15px 0;
+    font-size: 32px;
+    font-weight: 600;
+    color: #000;
+}
+.list .type {
+    position: relative;
+    margin-bottom: 50px;
+}
+.list .type .photo {
+    text-align: left;
+}
+.list .type .photo img {
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    box-shadow: 3px 2px 8px 5px #b2b1ad;
+}
+.list .type .text {
+    margin-left: 3em;
+    text-align: left;
+}
+.list .type .title h5 a {
+    font-weight: 600;
+    font-size: 26px;
+    color: #222;
+    transition: all 0.2s ease;
+}
+.list .type .title h5 a:hover {
+    color: #f57e42;
+}
+.list .type .caption {
+    font-size: 18px;
+}
+.list .type .price p {
+    font-weight: 600;
+    font-size: 25px;
+}
+.list .type .price span {
+    margin-left: 10px;
+    color: #f57e42;
+}
+
+.main {
+    padding: 50px;
+}
+.main .top {
+    background: #fff;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #b2b1ad;
+}
+.main .top h3 {
+    font-size: 24px;
+    color: #353434;
+    font-weight: 600;
+}
+.main .top .price h3 {
+    color: #f57e42;
+    font-weight: 600;
+}
+.main .section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    box-shadow: 0px 0px 10px 0px #b2b1ad;
+}
+.main .section .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 3px 2px 8px 5px #b2b1ad;
+}
+.main .section h5 {
+    color: #353434;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.main .section p {
+    color: #6d6d6d;
+}
+.main .contact {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.main .contact button {
+    padding: 15px 20px;
+    border: 2px solid #f57e42;
+    border-radius: 20px;
+    background: #f57e42;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.main .contact button i {
+    margin-right: 10px;
+}
+.main .contact button:hover {
+    background: #fff;
+    color: #f57e42;
+}
+.zar_body {
+    background: #f1f1f1;
+    padding: 50px;
+}
+.zar_nemeh {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px #b2b1ad;
+    border-radius: 10px;
+}
+.zar_nemeh h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #ccc;
+}
+.zar_nemeh .submit_btn {
+    background: #f57e42;
+    padding: 10px 50px;
+    border: 1px solid #f57e42;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.zar_nemeh .submit_btn:hover {
+    background: #fff;
+    color: #f57e42;
+}
